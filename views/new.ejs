@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ADD YOUR REPORT</h1>
+    <form action="/reports" method="POST">
+        <input type="text" name="userID" placeholder="userid as user-1,user-2 etc"><br>
+        <input type="text" name="marketID" placeholder="marketID as market-3,market-7"><br>
+        <input type="text" name="cmdtyID" placeholder="cmdtyID to be written like cmdty-2"><br>
+        <input type="text" name="cmdtyName" placeholder="cmdtyName">
+        <input type="text" name="priceUnit" placeholder="priceUnit in quintals,kgs or pound">
+        <input type="text" name="marketName" placeholder="marketName">
+        <input type="number" name="convFctr" placeholder="convFctr">
+        <input type="number" name="minPrice" placeholder="minPrice">
+        <input type="number" name="maxPrice" placeholder="maxPrice">
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

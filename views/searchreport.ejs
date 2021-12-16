@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% for(let result of query){%>
+        <div style="border: 1px solid black;margin-bottom: 10px;">
+            
+                UserId: <%=result.userID%><br>
+                MarketID:<%=result.marketID%><br>
+                MarketName:<%=result.marketName%><br>
+                Commodity Name:<%=result.cmdtyName%><br>
+                Market Name<%=result.marketName%><br>
+                Price Unit:<%=result.priceUnit%><br>
+                Conversion Factor:<%=result.convFctr%><br>
+                Minimum Price:<%=result.minPrice%><br>
+                Maximum Price:<%=result.maxPrice%><br>
+                
+
+            
+        </div>
+    <%}%>
+    
+</body>
+</html>
